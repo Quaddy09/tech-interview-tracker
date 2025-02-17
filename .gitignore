@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/
+
+# Firebase configuration file
+firebase-debug.log
+
+# Environment variables file
+.env.local
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
