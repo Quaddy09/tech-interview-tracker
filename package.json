@@ -1,0 +1,35 @@
+{
+  "name": "tech-interview-tracker",
+  "version": "1.0.0",
+  "description": "**Stay Organized. Track Applications. Land Your Dream Job.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quaddy09/tech-interview-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quaddy09/tech-interview-tracker/issues"
+  },
+  "homepage": "https://github.com/Quaddy09/tech-interview-tracker#readme",
+  "dependencies": {
+    "firebase": "^11.3.1",
+    "next": "^15.1.7",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tech-interview-tracker": "file:"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
