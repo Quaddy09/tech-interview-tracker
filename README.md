@@ -16,9 +16,4 @@ Looking for a tech job? This **Tech Interview Tracker** helps you organize job a
 Follow my journey as I develop this app step by step and share insights on LinkedIn.  
 
 🔗 **Live Demo:** _[Coming Soon]_  
-📂 **GitHub Repo:** _[Your GitHub Repo Link]_
-
 ---
-
-### **4. Next Step**  
-You can now start by running `git init` and adding the project files to GitHub. Would you like help setting up the initial commit and pushing this to GitHub next?
