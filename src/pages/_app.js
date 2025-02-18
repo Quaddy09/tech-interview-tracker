@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import { AuthProvider } from "../context/AuthContext";
+import "../styles/globals.css";  // Use relative path
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <AuthProvider>
+      <Component {...pageProps} />
+    </AuthProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;

@@ -1,13 +1,19 @@
 import Head from 'next/head'
+import { useAuth } from "@/context/AuthContext";
 
 export default function Home() {
+  const { user, loginWithGoogle, logout } = useAuth();
+
   return (
-    <div className="bg-blue-500 text-white min-h-screen flex justify-center items-center">
-      <Head>
-        <title>Tech Interview Tracker</title>
-        <meta name="description" content="Track your tech interviews!" />
-      </Head>
-      <h1 className="text-4xl font-bold">Welcome to Tech Interview Tracker!</h1>
+    <div>
+      {user ? (
+        <>
+          <h1>Welcome, {user.displayName}!</h1>
+          <button onClick={logout}>Logout</button>
+        </>
+      ) : (
+        <button onClick={loginWithGoogle}>Login with Google</button>
+      )}
     </div>
-  )
+  );
 }
