@@ -1,5 +1,7 @@
 # **Tech Interview Tracker 🚀**  
-**Stay Organized. Track Applications. Land Your Dream Job.**  
+**Stay Organized. Track Applications. Land Your Dream Job.**
+**decommissioned until further notice**
+
 
 Looking for a tech job? This **Tech Interview Tracker** helps you organize job applications, track interview progress, and stay on top of deadlines—all in one place.  
 
